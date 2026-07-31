@@ -1,5 +1,3 @@
-# Austin-smith Tap
-
 ## How do I install these formulae?
 
 `brew install austin-smith/tap/<formula>`
