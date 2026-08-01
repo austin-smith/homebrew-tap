@@ -1,9 +1,9 @@
 class Spotuify < Formula
   desc "spotify in ur terminal"
   homepage "https://github.com/austin-smith/spotuify"
-  version "0.1.0"
-  url "https://github.com/austin-smith/spotuify/releases/download/v0.1.0/spotuify-v0.1.0-darwin-arm64.tar.gz"
-  sha256 "f88388d0ddcf9939b6c1c8d5b95a64736ac56e1becb51144d252f87a7a2818a5"
+  version "0.1.1"
+  url "https://github.com/austin-smith/spotuify/releases/download/v0.1.1/spotuify-v0.1.1-darwin-arm64.tar.gz"
+  sha256 "974d8531e64f48e86b371f815d9fabf8cac8187fab80dc66be51e7bd2844a811"
   license "MIT"
 
   depends_on macos: :ventura
