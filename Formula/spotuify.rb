@@ -1,13 +1,13 @@
 class Spotuify < Formula
   desc "spotify in ur terminal"
   homepage "https://github.com/austin-smith/spotuify"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/austin-smith/spotuify/releases/download/v0.2.1/spotuify-v0.2.1-darwin-arm64.tar.gz"
-      sha256 "b2e8d294621141e669dad2a3edb505242bd0767219e37478b9cb2e6179ca2b29"
+      url "https://github.com/austin-smith/spotuify/releases/download/v0.2.2/spotuify-v0.2.2-darwin-arm64.tar.gz"
+      sha256 "a750a7aa18e6375ca4edf80fe5ee46798bba2bf96eeb6f4523ba09566695e81d"
     end
     depends_on arch: :arm64
     depends_on macos: :ventura
@@ -15,11 +15,11 @@ class Spotuify < Formula
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/austin-smith/spotuify/releases/download/v0.2.1/spotuify-v0.2.1-linux-arm64.tar.gz"
-      sha256 "9582c2ae2e6ca347420030ca2e9cc550971efb1654b35f36e15339c0e229a278"
+      url "https://github.com/austin-smith/spotuify/releases/download/v0.2.2/spotuify-v0.2.2-linux-arm64.tar.gz"
+      sha256 "cc4ba6cbec484fa285dd5bb1a131ac3ba66c4f21e69b4c75f86f36e3f4f578dd"
     else
-      url "https://github.com/austin-smith/spotuify/releases/download/v0.2.1/spotuify-v0.2.1-linux-x64.tar.gz"
-      sha256 "44c31d8759cac57516326b22af350b78b1aff1d16edb40e1fd3b5eb31014ee15"
+      url "https://github.com/austin-smith/spotuify/releases/download/v0.2.2/spotuify-v0.2.2-linux-x64.tar.gz"
+      sha256 "6e2955ff9e814a20edd6a6ca142e8799eaf3b6d981ffcd40e5ab9143384bf4be"
     end
     depends_on "patchelf" => :build
     depends_on "alsa-lib"
